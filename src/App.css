@@ -1,0 +1,88 @@
+.cont{
+   
+    background-color: black;
+}
+nav a{
+    line-height: 70px;
+    padding-left: 40px;
+    text-decoration: none;
+}
+nav a:nth-child(2){
+    
+    color: white;
+}
+nav a:hover{
+    color: red;
+}
+.active a{
+    color: red;
+}
+
+input:focus{
+    transition: 1s;
+    transform: scaleX(1.1);
+    background-color: black;
+    color: white;
+}
+
+.card{
+    position: relative;
+    width: 220px;
+    height: 550px;
+
+
+}
+
+
+
+.card h5:first-child{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.card a{
+    text-decoration: none;
+    color: red;
+}
+.card:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+.link{
+     position: absolute;
+     bottom: 20px;
+     left: 35%;
+     
+}
+.img{
+    width: 200px;
+    height: 200px ;
+}
+.pag .row{
+    margin: auto;
+    text-align: center;
+}
+.fas:hover{
+    cursor: pointer;
+}
+.arrow{
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+}
+.input{
+    width: 100%;
+}
+
+ input{
+    margin-bottom: 6%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
